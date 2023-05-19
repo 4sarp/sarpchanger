@@ -51,16 +51,17 @@ def control_mac(interface,a):
        random_mac(interface)
 
 
-
-
+        
 print(colored(">>>>","red") + " Mac Changer Started " + colored("<<<<","red"))
 sleep(0.5)
 print(colored(">>>>","red") + " By Hacker Sarp " + colored("<<<<","red") + "\n" + colored(">>>>","red") + " https://github.com/4sarp " + colored("<<<<","red") + "\n\n\n")
 sleep(0.7)
+
                                                                          # We create the parser.
                                                                          # We add our options with the parser
                                                                          # Finally, we tell where to assign the given value using the option.
                                                                          # dest = Destination 
+                
 parse_object = opt.OptionParser()                                                           
 parse_object.add_option("-m","--module", dest = "module", help = " Selected of |random| or |manuel| mac")                            
 parse_object.add_option("-i","--interface",dest = "interface", help = " Choose network connection line")                                
